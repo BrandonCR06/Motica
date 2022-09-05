@@ -1,6 +1,6 @@
 import './App.css';
 
-function App() {
+function Historia() {
 
   return (
     <div>
@@ -9,14 +9,6 @@ function App() {
       <a class="navbar-brand text-white" href="#">MOTICA</a>
           <button class="btn btn-outline-light me-2 position-absolute top-10 end-0" type="button">INICIAR SESION</button>
       </nav>
-
-      <div class="position-absolute top-50 start-0 translate-middle-y">
-        <h1>¡Bienvenido a Motica!</h1>
-        <h3>Consiga tanto cannabis como productos derivados de este de forma 100% legal.</h3>
-        <h3>Para uso lúdico o medicinal</h3>
-        <a href="#" class="btn btn-default btn-lg">Visitar la Tienda</a>
-      </div>
-
 
       <section class="">
         <footer class="bg-success text-white text-center fixed-bottom">
@@ -28,7 +20,7 @@ function App() {
 
                 <ul class="list-unstyled mb-0">
                   <li>
-                    <a href="/Historia.js" class="text-white">Historia</a>
+                    <a href="#!" class="text-white">Historia</a>
                   </li>
                   <li>
                     <a href="#!" class="text-white">Descripcion del producto</a>
@@ -56,23 +48,9 @@ function App() {
 
         </footer>
       </section>
-
-
-
-
-
-      
-
-
-
     </div>
-
-
-    
-
-
 
   );
 }
 
-export default App;
+export default Historia;

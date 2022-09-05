@@ -7,9 +7,9 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    padding-top: 20px;
   }
 }
 
@@ -35,4 +35,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.bgcolor {
+  background-image: url('img/navbar.jpg')!important;
+  background-repeat: repeat;
 }

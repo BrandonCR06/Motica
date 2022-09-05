@@ -1,23 +1,43 @@
 import './App.css';
+import houseImgPath from './mari.jpeg' // replace with your own path
+import carrito from './cart.svg' // replace with your own path
 
 function App() {
-
   return (
-    <div>
+
+
+    <body class=" coverContainer bg-dark">
  
-      <nav class="bg-success text-white navbar">
-      <a class="navbar-brand text-white" href="#">MOTICA</a>
-          <button class="btn btn-outline-light me-2 position-absolute top-10 end-0" type="button">INICIAR SESION</button>
-      </nav>
+     <nav class="navbar  navbar-expand-sm backgroundNavbar" >
+      <a class="navbar-brand text-white">
+       <img alt="House" src={houseImgPath} width="30" height="30"/> moTICA      
+      </a>  
+      
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="btn btn-default  btn-outline-dark bg-white "> Carrito
+            <img src={carrito} alt="logo" width="30" height="25"/>
+          </a>
+                  
+        </li>
+        
+        <li class="nav-item">
+          <a href="" class="nav-link bg-success " width="30" height="25">Iniciar Sesión</a>
 
-      <div class="position-absolute top-50 start-0 translate-middle-y">
-        <h1>¡Bienvenido a Motica!</h1>
-        <h3>Consiga tanto cannabis como productos derivados de este de forma 100% legal.</h3>
-        <h3>Para uso lúdico o medicinal</h3>
-        <a href="#" class="btn btn-default btn-lg">Visitar la Tienda</a>
+        </li>
+      </ul>
+                        
+     </nav>
+      
+
+
+      
+      <div class= "text-white position-absolute  top-50  translate-middle-y">
+        <h1>Bienvenido a motica</h1>
+        <h3>Tienda en linea de productos derivados del cannabis</h3>
+        <a class="btn btn-default btn-lg bg-success">TIENDA</a>
       </div>
-
-
+       
       <section class="">
         <footer class="bg-success text-white text-center fixed-bottom">
           <div class="container p-3">
@@ -44,7 +64,7 @@ function App() {
 
                 <ul class="list-unstyled">
                   <li>
-                    <a href="#!" class="text-white">Ubicacion</a>
+                    <a href="#!" class="text-white">Ubicación</a>
                   </li>
                   <li>
                     <a href="#!" class="text-white">Preguntas frecuentes</a>
@@ -65,7 +85,7 @@ function App() {
 
 
 
-    </div>
+    </body>
 
 
     

@@ -35,7 +35,7 @@ function Home() {
       <div class= "text-white position-absolute  top-50  translate-middle-y">
         <h1>Bienvenido a motica</h1>
         <h3>Tienda en linea de productos derivados del cannabis</h3>
-        <a class="btn btn-default btn-lg bg-success">TIENDA</a>
+        <a href="/Tienda" class="btn btn-default btn-lg bg-success">TIENDA</a>
       </div>
        
       <section class="">

@@ -2,7 +2,7 @@ import './App.css';
 import houseImgPath from './mari.jpeg' // replace with your own path
 import carrito from './cart.svg' // replace with your own path
 
-function Historia() {
+function Descripcion() {
 
   return (
     <body class=" coverContainer bg-dark">
@@ -81,4 +81,4 @@ function Historia() {
   );
 }
 
-export default Historia;
+export default Descripcion;

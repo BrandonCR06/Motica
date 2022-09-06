@@ -1,97 +1,20 @@
 import './App.css';
-import houseImgPath from './mari.jpeg' // replace with your own path
-import carrito from './cart.svg' // replace with your own path
+
+import Historia from './Historia'
+import Home from './Home'
+
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
 function App() {
   return (
-
-
-    <body class=" coverContainer bg-dark">
- 
-     <nav class="navbar  navbar-expand-sm backgroundNavbar" >
-      <a class="navbar-brand text-white">
-       <img alt="House" src={houseImgPath} width="30" height="30"/> moTICA      
-      </a>  
-      
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-          <a class="btn btn-default  btn-outline-dark bg-white "> Carrito
-            <img src={carrito} alt="logo" width="30" height="25"/>
-          </a>
-                  
-        </li>
-        
-        <li class="nav-item">
-          <a href="" class="nav-link bg-success " width="30" height="25">Iniciar Sesión</a>
-
-        </li>
-      </ul>
-                        
-     </nav>
-      
-
-
-      
-      <div class= "text-white position-absolute  top-50  translate-middle-y">
-        <h1>Bienvenido a motica</h1>
-        <h3>Tienda en linea de productos derivados del cannabis</h3>
-        <a class="btn btn-default btn-lg bg-success">TIENDA</a>
+  <div className="App">
+        <BrowserRouter> 
+          <Routes> 
+            <Route path='/Historia' element={<Historia/>} />
+            <Route path='/' element={<Home/>} />
+          </Routes>
+        </BrowserRouter>
       </div>
-       
-      <section class="">
-        <footer class="bg-success text-white text-center fixed-bottom">
-          <div class="container p-3">
-            <div class="row">
-
-              <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
-                <h5 class="text-uppercase">Empresa</h5>
-
-                <ul class="list-unstyled mb-0">
-                  <li>
-                    <a href="/Historia.js" class="text-white">Historia</a>
-                  </li>
-                  <li>
-                    <a href="#!" class="text-white">Descripcion del producto</a>
-                  </li>
-                  <li>
-                    <a href="#!" class="text-white">Organigrama de la empresa</a>
-                  </li>
-                </ul>
-              </div>
-
-              <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
-                <h5 class="text-uppercase mb-0">De interes</h5>
-
-                <ul class="list-unstyled">
-                  <li>
-                    <a href="#!" class="text-white">Ubicación</a>
-                  </li>
-                  <li>
-                    <a href="#!" class="text-white">Preguntas frecuentes</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-        </footer>
-      </section>
-
-
-
-
-
-      
-
-
-
-    </body>
-
-
-    
-
-
-
   );
 }
 

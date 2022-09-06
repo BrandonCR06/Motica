@@ -2,9 +2,10 @@ import './App.css';
 import houseImgPath from './mari.jpeg' // replace with your own path
 import carrito from './cart.svg' // replace with your own path
 
-function Historia() {
-
+function Home() {
   return (
+
+
     <body class=" coverContainer bg-dark">
  
      <nav class="navbar  navbar-expand-sm backgroundNavbar" >
@@ -32,7 +33,9 @@ function Historia() {
 
       
       <div class= "text-white position-absolute  top-50  translate-middle-y">
-        
+        <h1>Bienvenido a motica</h1>
+        <h3>Tienda en linea de productos derivados del cannabis</h3>
+        <a class="btn btn-default btn-lg bg-success">TIENDA</a>
       </div>
        
       <section class="">
@@ -74,9 +77,22 @@ function Historia() {
         </footer>
       </section>
 
+
+
+
+
+      
+
+
+
     </body>
+
+
+    
+
+
 
   );
 }
 
-export default Historia;
+export default Home;

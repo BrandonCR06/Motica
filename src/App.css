@@ -42,6 +42,43 @@
   position:fixed;top:0;left: 0;width:100%;height:100%;
 }
 
+.decoration1{
+  background-image: url("detalle.png");
+  background-size: 100px;
+  background-repeat: no-repeat;
+  width: 1000px;
+  height: 700px;
+  background-position-y: 200px;
+}
+
+.decoration2{
+  background-image: url("detalle.png");
+  background-size: 100px;
+  background-repeat: no-repeat;
+  width: 1000px;
+  height: 700px;
+  background-position-y: 200px;
+  background-position-x: right;
+}
+
+
 .backgroundNavbar {
   background-image: url("bg.jpeg");
+}
+
+.backgroundDescription{
+  background-image: url("descripcion.png");
+  background-size: 700px;
+  background-repeat: no-repeat;
+  background-position: top;
+  width: 1000px;  
+  height: 700px;
+}
+
+.parrafo {
+  top: 100px;
+  left: 0px;
+  line-height: 200%;
+  font-size: 20px;
+  text-align: center;
 }

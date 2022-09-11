@@ -15,7 +15,7 @@ function Descripcion() {
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
           <a href="/Login" class="btn btn-default  btn-outline-dark bg-white "> Carrito
-            <img src={carrito} alt="logo" width="30" height="25"/>
+            <img src={carrito} alt="logo" width="30" height="25" />
           </a>
                   
         </li>
@@ -27,18 +27,23 @@ function Descripcion() {
       </ul>
                         
      </nav>
-      
-      
-      <div class= "text-white position-absolute  top-50  translate-middle-y">
-        
-
-      
 
 
-      </div>
-       
+     <div class= "position-relative col-5 start-50 translate-middle-x backgroundDescription">
+        <br/>
+        <br/>
+        <h1 style={{ color: "#00FF99" }} >Descripción del sitio</h1>
+        <div class = "position-relative translate-middle-x start-50 decoration1">
+        <div class = "position-relative translate-middle-x start-50 decoration2">
+          <div class = "position-relative col-8 start-50 translate-middle-x parrafo">
+          <p style={{ color: "white" }} >Se conoce con el nombre de cannabis con sus variantes, sativa e índica, una planta, conocida en botánica como Cannabis sativa que ha sido utilizada desde la antigüedad por sus propiedades. La planta se ha usado y se usa actualmente con diferentes fines: recreativos, medicinales e industriales se puede utilizar para confeccionar ropa, cuerda, zapatos, papel y otros. <br/> Nuestra empresa se encarga de comerciar de forma legal el cannabis en todas sus formas aplicativas. Nuestro objetivo es dominar el mercado de dicho producto y polularizar su uso como cualquier otra droga recreativa anteriormente legalizada, con el fin de eliminar el tabú creado alrededor de este. Dicho objetivo también conlleva campañas de conscienciación sobre su uso.</p>
+          </div>
+        </div>
+        </div>
+        </div>
+   
       <section class="">
-        <footer class="bg-success text-white text-center fixed-bottom">
+        <footer class="text-white text-center fixed-bottom backgroundNavbar">
           <div class="container p-3">
             <div class="row">
 

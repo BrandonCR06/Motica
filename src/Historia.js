@@ -1,6 +1,7 @@
 import './App.css';
 import houseImgPath from './mari.jpeg' // replace with your own path
 import carrito from './cart.svg' // replace with your own path
+import test from './test.png'
 
 function Historia() {
 
@@ -19,9 +20,9 @@ function Historia() {
           </a>
                   
         </li>
-        
+        <li>-</li>
         <li class="nav-item">
-          <a href="/Login" class="nav-link bg-success " width="30" height="25">Iniciar Sesión</a>
+          <a href="/Login" class="btn btn-default  btn-outline-dark bg-success" width="30" height="25">Iniciar Sesión</a>
 
         </li>
       </ul>
@@ -29,21 +30,37 @@ function Historia() {
      </nav>
       
       
-      <div class= "text-white position-absolute  top-50  translate-middle-y">
-        
+      <div class= "contenedor">
 
       
+        <h2 class='text-success'>Nuestra Historia</h2>
+        <img src={test} width="800" height="750" alt="Mi titulo de la imagen"/>
+        <div class='centrado'>
+          <p class="fs-5 text-white">
+          Motica se fundó en el año 2022 con el fin de impulsar, modernizar y popularizar el
+          negocio de las ventas de cannabis y sus productos derivados. 
+          Iniciamos lanzando nuestros primeros productos prácticamente solo enfocados en el consumo de forma
+          tradicional, pero hoy en día somos los más grandes distribuidores de todo tipo de
+          productos derivados del cannabis, nuestra empreza va desde la gastronomía hasta el
+          uso medicinal y por supuesto su forma más básica, el consumo tradicional de puros.
+          Esta empresa en poco tiempo se ha consolidado como la más importante vendedora
+          del país y ha colaborado con la educación sobre el consumo adecuado y responsable
+          de nuestro producto, asi como el combate contra el tabú formado alrededor de este.
+          </p>
+        </div>
 
+        
+
+        
 
       </div>
        
       <section class="">
-        <footer class="bg-success text-white text-center fixed-bottom">
-          <div class="container p-3">
+      <footer class="backgroundNavbar text-white text-center fixed-bottom">
+          <div class="container p-0">
             <div class="row">
 
               <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
-                <h5 class="text-uppercase">Empresa</h5>
 
                 <ul class="list-unstyled mb-0">
                   <li>
@@ -59,7 +76,6 @@ function Historia() {
               </div>
 
               <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
-                <h5 class="text-uppercase mb-0">De interes</h5>
 
                 <ul class="list-unstyled">
                   <li>

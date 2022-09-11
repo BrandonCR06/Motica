@@ -42,13 +42,12 @@ function Descripcion() {
         </div>
         </div>
    
-      <section class="">
-        <footer class="text-white text-center fixed-bottom backgroundNavbar">
-          <div class="container p-3">
+        <section class="">
+        <footer class="backgroundNavbar text-white text-center fixed-bottom">
+          <div class="container p-0">
             <div class="row">
 
               <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
-                <h5 class="text-uppercase">Empresa</h5>
 
                 <ul class="list-unstyled mb-0">
                   <li>
@@ -64,7 +63,6 @@ function Descripcion() {
               </div>
 
               <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
-                <h5 class="text-uppercase mb-0">De interes</h5>
 
                 <ul class="list-unstyled">
                   <li>

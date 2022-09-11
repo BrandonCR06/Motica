@@ -66,6 +66,7 @@
   background-image: url("bg.jpeg");
 }
 
+<<<<<<< HEAD
 .backgroundDescription{
   background-image: url("descripcion.png");
   background-size: 700px;
@@ -82,3 +83,56 @@
   font-size: 20px;
   text-align: center;
 }
+=======
+
+.contenedor{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+.texto-encima{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.centrado{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.alineadoCentro{
+  position: absolute;
+  top: 30px;  
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.alineadoIzquierda{
+  position: absolute;
+  width: 2000px;
+  top: 50px;
+  
+  left: 50px;
+  transform: translate(-50%, -50%);
+}
+
+.verticalLine {
+  
+  border-left: 4px;
+  height: 40px;
+  
+}
+.inline{
+  display: inline;
+  
+
+}
+.inlinePar{
+  display: inline;
+  top: 14px;
+}
+.inlineParRes{
+  display: inline;
+  top: 46px;
+}
+>>>>>>> origin/master

@@ -45,3 +45,25 @@
 .backgroundNavbar {
   background-image: url("bg.jpeg");
 }
+
+.leftside , .rightside {
+  position: absolute;
+  top: 5px;
+  height : 79vh;
+  width:100%; 
+}
+
+.leftside {
+  background :bg-dark;
+}
+
+.rightside {
+  background : bg-dark;
+}
+    
+.informationBox{
+  background : white;
+  height : 70%;
+  width:70%; 
+}
+

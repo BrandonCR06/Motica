@@ -1,7 +1,7 @@
 import './App.css';
 import houseImgPath from './mari.jpeg' // replace with your own path
 import carrito from './cart.svg' // replace with your own path
-import test from './test.png'
+import test from './descripcion.png'
 
 function Historia() {
 

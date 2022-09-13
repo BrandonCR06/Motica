@@ -2,10 +2,11 @@ import './App.css';
 import houseImgPath from './mari.jpeg' // replace with your own path
 import carrito from './cart.svg' // replace with your own path
 
-function Faq() {
-
+function Home() {
   return (
-    <body class=" coverContainer bg-dark">
+
+
+    <body class=" overflow-auto coverContainer bg-dark">
  
      <nav class="navbar  navbar-expand-sm backgroundNavbar" >
       <a href="/" class="navbar-brand text-white">
@@ -19,31 +20,111 @@ function Faq() {
           </a>
                   
         </li>
-        
+        <li>-</li>
         <li class="nav-item">
-          <a href="/Login" class="nav-link bg-success " width="30" height="25">Iniciar Sesión</a>
+          <a href="/Login" class="btn btn-default  btn-outline-dark bg-success " width="30" height="25">Iniciar Sesión</a>
 
         </li>
       </ul>
                         
      </nav>
       
+
+
       
-      <div class= "text-white position-absolute  top-50  translate-middle-y">
+      <div class= " alineadoCentro text-white position-relative">
+        <h1>Preguntas Frecuentes</h1>        
+        
+      </div>
+      <div  class = " ">
+        <div class = "verticalLine"></div>
+        
+        <div class= " alineadoIzquierda  text-white position-relative">        
+          <div class = " bg-gradient text-success"> 
+            <h2 class = "inline position-relative text-success">P.</h2>   
+            <p class = " inlinePar position-absolute "> ¿Los productos cannábicos vendidos son legales?</p>                     
+          </div>
+
+          <div>
+            <h3 class = "position-relative inline text-white">R.</h3>                        
+            <p class = "inlineParRes  position-absolute"> Si, nuestros productos son comercializados bajo la legislación de la república de Costa Rica.         
+            </p>                             
+          </div>
+          
+        </div>
+
+        <div class = "verticalLine bg-dark"></div>
+        <div class= " alineadoIzquierda  text-white position-relative">        
+          <div class = " bg-gradient text-success"> 
+            <h2 class = "inline position-relative text-success">P.</h2>   
+            <p class = " inlinePar position-absolute  "> ¿Solo realizan envíos a Costa Rica?                   
+            </p>                     
+          </div>
+        <h3 class = "inline position-relative  text-white">R.</h3>                        
+        <p class = " inlineParRes  position-absolute ">Realizamos envíos a países donde la legislación permite el consumo de nuestros productos</p>    
+                  
+        </div>
+
+        <div class = "verticalLine bg-dark"></div>
+        <div class= " alineadoIzquierda  text-white position-relative">        
+          <div class = " bg-gradient text-success"> 
+            <h2 class = "inline position-relative text-success">P.</h2>   
+            <p class = " inlinePar position-absolute  "> ¿Los productos no son dañinos para la salud?                   
+            </p>                     
+          </div>
+        <h3 class = "inline position-relative  text-white">R.</h3>                        
+        <p class = " inlineParRes  position-absolute ">El abuso de productos puede ser perjudicial, es por eso que se deben consumir responsablemente</p>                    
+        </div>
+        
+        
+        <div class = "verticalLine bg-dark"></div>
+        <div class= " alineadoIzquierda  text-white position-relative">        
+          <div class = " bg-gradient text-success"> 
+            <h2 class = "inline position-relative text-success">P.</h2>   
+            <p class = " inlinePar position-absolute  "> ¿Como es un helado cannábico?                   
+            </p>                     
+          </div>
+        <h3 class = "inline position-relative  text-white">R.</h3>                        
+        <p class = " inlineParRes  position-absolute ">Increíble.</p>    
+                  
+        </div>
+        <div class = "verticalLine bg-dark"></div>
+        <div class= " alineadoIzquierda  text-white position-relative">        
+          <div class = " bg-gradient text-success"> 
+            <h2 class = "inline position-relative text-success">P.</h2>   
+            <p class = " inlinePar position-absolute  "> ¿Venderan productos de otras empresas?                   
+            </p>                     
+          </div>
+        <h3 class = "inline position-relative  text-white">R.</h3>                        
+        <p class = " inlineParRes  position-absolute ">Algunos productos son brindados de empresas como POPS, Gallito, entre otras</p>                      
+        </div>
         
 
-      
-
-
+        
+        
+        <div class = "verticalLine bg-dark"></div>
+        <div class= " alineadoIzquierda  text-white position-relative">        
+          <div class = " bg-gradient text-success"> 
+            <h2 class = "inline position-relative text-success">P.</h2>   
+            <p class = " inlinePar position-absolute  "> ¿Toppings para el helado cannábico?                   
+            </p>                     
+          </div>
+        <h3 class = "inline position-relative  text-white">R.</h3>                        
+        <p class = " inlineParRes  position-absolute ">Macadamia, chocolate, almendras y ganas de volar</p>    
+                  
+        </div>
+        <div class = "verticalLine bg-dark"></div>
+        
       </div>
+      
+      
        
       <section class="">
-        <footer class="bg-success text-white text-center fixed-bottom">
-          <div class="container p-3">
+        <footer class="backgroundNavbar text-white position-relative text-center fixed-bottom">
+          <div class="container p-0">
             <div class="row">
 
               <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
-                <h5 class="text-uppercase">Empresa</h5>
 
                 <ul class="list-unstyled mb-0">
                   <li>
@@ -59,7 +140,6 @@ function Faq() {
               </div>
 
               <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
-                <h5 class="text-uppercase mb-0">De interes</h5>
 
                 <ul class="list-unstyled">
                   <li>
@@ -76,9 +156,22 @@ function Faq() {
         </footer>
       </section>
 
+
+
+
+
+      
+
+
+
     </body>
+
+
+    
+
+
 
   );
 }
 
-export default Faq;
+export default Home;

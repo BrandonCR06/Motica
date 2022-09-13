@@ -20,9 +20,9 @@ function Home() {
           </a>
                   
         </li>
-        
+        <li>-</li>
         <li class="nav-item">
-          <a href="/Login" class="nav-link bg-success " width="30" height="25">Iniciar Sesión</a>
+          <a href="/Login" class="btn btn-default  btn-outline-dark bg-success " width="30" height="25">Iniciar Sesión</a>
 
         </li>
       </ul>
@@ -32,19 +32,18 @@ function Home() {
 
 
       
-      <div class= "text-white position-absolute  top-50  translate-middle-y">
-        <h1>Bienvenido a motica</h1>
+      <div class= "centrado text-white position-absolute">
+        <h1>¡Bienvenido a motica!</h1>
         <h3>Tienda en linea de productos derivados del cannabis</h3>
-        <a href="/Tienda" class="btn btn-default btn-lg bg-success">TIENDA</a>
+        <a href="/Tienda" class="btn btn-default btn-lg bg-success">Visitar la Tienda</a>
       </div>
        
       <section class="">
-        <footer class="bg-success text-white text-center fixed-bottom">
-          <div class="container p-3">
+        <footer class="backgroundNavbar text-white text-center fixed-bottom">
+          <div class="container p-0">
             <div class="row">
 
               <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
-                <h5 class="text-uppercase">Empresa</h5>
 
                 <ul class="list-unstyled mb-0">
                   <li>
@@ -60,7 +59,6 @@ function Home() {
               </div>
 
               <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
-                <h5 class="text-uppercase mb-0">De interes</h5>
 
                 <ul class="list-unstyled">
                   <li>

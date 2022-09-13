@@ -29,41 +29,13 @@ function Organigrama() {
      </nav>
       
       
-     <div class="orcontainer">
-      <h1 class="level-1 rectangle">Presidencia: Brandon Redondo / Ricardo Soto</h1>
-        <ol class="level-2-wrapper">
-              <li>
-                <h2 class="level-2 rectangle">Marketing: Cristopher Zúñiga</h2>
-              </li>
-              <li>
-                <h2 class="level-2 rectangle">Ventas: Fabián Villalobos</h2>
-              </li>
-            </ol>
-            <ol class="level-2-wrapper">
-          <li>
-          ...
-              <ol class="level-3-wrapper">
-                  <li>
-                      <h3 class="level-3 rectangle">Innovación: Minion1</h3>
-                  </li>
-                  <li>
-                      <h3 class="level-3 rectangle">Redes: Minion2</h3>
-                  </li>
-              </ol>
-          </li>
-          <li>
-          ...
-              <ol class="level-3-wrapper">
-                  <li>
-                      <h3 class="level-3 rectangle">Envíos: Jordano Escalante</h3>
-                  </li>
-                  <li>
-                      <h3 class="level-3 rectangle">Entregas:Jordano Esc</h3>
-                  </li>
-              </ol>
-          </li>
-      </ol>
-     </div>
+      <div class= "text-white position-absolute  top-50  translate-middle-y">
+        
+
+      
+
+
+      </div>
        
       <section class="">
         <footer class="bg-success text-white text-center fixed-bottom">

@@ -121,19 +121,20 @@
 }
 .alineadoCentro{
   position: absolute;
-  top: 30px;  
+  top: 3%;  
   left: 50%;
   transform: translate(-50%, -50%);
 }
 .alineadoIzquierda{
   position: absolute;
-  width: 2000px;
-  top: 50px;
-  
-  left: 50px;
-  transform: translate(-50%, -50%);
+  width:100%;
+  top: 10%;
+    
 }
-
+.izquierda{
+  position :relative;
+  left: -48%;
+}
 .verticalLine {
   
   border-left: 4px;
@@ -142,17 +143,22 @@
 }
 .inline{
   display: inline;
+  top: 13%;
+  font-Size: 2vw;
+
+  
   
 
 }
 .inlinePar{
   display: inline;
-  top: 14px;
+  min-height: 10%;
+  font-Size: 1.2vw;
+  left:3%;
+  top: 18%;
 }
-.inlineParRes{
-  display: inline;
-  top: 46px;
-}
+
+
 /**************A partir de acá están los estilos del organigrama************************/
 :root {
   --level-1: #8dccad;

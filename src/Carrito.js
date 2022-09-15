@@ -1,8 +1,7 @@
 import './App.css';
 import houseImgPath from './mari.jpeg' // replace with your own path
-import carrito from './cart.svg' // replace with your own path
 
-function Home() {
+function Carrito() {
   return (
 
 
@@ -14,15 +13,9 @@ function Home() {
       </a>  
       
       <ul class="navbar-nav ms-auto">
+        
         <li class="nav-item">
-          <a href="/Carrito" class="btn btn-default  btn-outline-dark bg-white "> Carrito
-            <img src={carrito} alt="logo" width="30" height="25"/>
-          </a>
-                  
-        </li>
-        <li>-</li>
-        <li class="nav-item">
-          <a href="/Login" class="btn btn-default  btn-outline-dark bg-success " width="30" height="25">Iniciar Sesión</a>
+          <a href="/Login" class="btn btn-default  btn-outline-dark bg-success " width="30" height="25">Usuario</a>
 
         </li>
       </ul>
@@ -30,13 +23,6 @@ function Home() {
      </nav>
       
 
-
-      
-      <div class= "centrado text-white position-absolute">
-        <h1>¡Bienvenido a motica!</h1>
-        <h3>Tienda en linea de productos derivados del cannabis</h3>
-        <a href="/Catalogo" class="btn btn-default btn-lg bg-success">Visitar la Tienda</a>
-      </div>
        
       <section class="">
         <footer class="backgroundNavbar text-white text-center fixed-bottom">
@@ -93,4 +79,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Carrito;

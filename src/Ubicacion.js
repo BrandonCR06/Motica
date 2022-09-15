@@ -49,31 +49,28 @@ function Ubicacion() {
           <div class= "rightside d-flex justify-content-start align-items-center "> 
             <div class ="informationBox"> 
               <br></br>
-              <h1 class="text-center fw-bold fst-italic">¿En donde estamos ubicados?</h1>
-              <br></br>
-              <p class="text-start fst-normal ml-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-              when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-              d.luding versions of Lorem Ipsum.</p>
+              <h1 class="TituloLocation text-center fw-bold fst-italic">Estamos aqui para usted</h1>
+              <p class="parrafoLocation text-start fst-normal ml-4">Nos encargamos de cualquier duda que tenga de nuestros productos.</p>
              
 
-              <h3 class="text-start fw-bold fst-italic ml-2 ">Telefono</h3>
-              <p class="text-start fst-normal ml-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+              <p class="parrafoLocation text-start fw-bold fst-italic ml-1">Nuestros horarios de atención son:</p>
+              <p class="parrafoLocation text-start fst-italic ml-4">Lunes - Viernes</p> 
+              <p class="parrafoLocation text-start fst-italic ml-4">10:00 am - 05:00 pm</p>
              
 
-              <h3 class="text-start fw-bold fst-italic ml-2 ">Oficinas</h3>
-              <p class="text-start fw-normal fst-normal ml-4">99999-999999</p>
+              <p class="parrafoLocation text-start fw-bold fst-italic ml-2 ">Oficinas</p>
+              <p class="parrafoLocation text-start fw-normal fst-normal ml-4">Barrio Cerro Mocho frente al Colegio Diurno . 159-7050 Cartago. Limón. Limón.</p>
             
             
-              <h3 class="text-start fw-bold fst-italic ml-2 ">Whatsapp</h3>
-              <p class="text-start fw-normal fst-normal ml-4">99999-99999</p>
+              <p class="parrafoLocation text-start fw-bold fst-italic ml-2 ">Número de télefono </p>
+              <p class="parrafoLocation text-start fw-normal fst-normal ml-4">+506 8974-2465</p>
+
+              <p class="parrafoLocation text-start fw-bold fst-italic ml-2 ">Correo Electrónico </p>
+              <p class="parrafoLocation text-start fw-normal fst-normal ml-4">info@moTica.com</p>
             
             </div>
           
           </div>
-
-
         </div>
 
       </div>

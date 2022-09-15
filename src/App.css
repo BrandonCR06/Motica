@@ -47,24 +47,35 @@
 
 .leftside , .rightside {
   position: absolute;
-  top: 5px;
-  height : 79vh;
+  top: 2px;
+  height : 88vh;
   width:100%; 
+  background :bg-black;
 }
 
-.leftside {
-  background :bg-dark;
+.parrafoLocation{
+  font-size: 2vmin;
+}
+.TituloLocation{
+  font-size: 2.5vmin;
 }
 
-.rightside {
-  background : bg-dark;
-}
-    
-.informationBox{
+.informationBox {
   background : white;
-  height : 70%;
-  width:70%; 
+  font-family: Arial, Helvetica, sans-serif;
+  height : 61.6vh;
+  width: 35vw;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 25px 2px 20px 23px black;
+  
 }
+
+.responsive-iframe{
+  box-shadow: -25px 2px 20px 23px black;
+}
+
+
 
 .backgroundDescription{
   width: 100%;

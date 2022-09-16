@@ -1,13 +1,13 @@
 import './App.css';
-import houseImgPath from './mari.jpeg' // replace with your own path
-import carrito from './cart.svg' // replace with your own path
-import test from './descripcion.png'
+import houseImgPath from './mari.jpeg'
+import carrito from './cart.svg'
 
 function Historia() {
 
   return (
-    <body class=" coverContainer bg-dark">
+    <body style ={{minWidth:"100%" }} class=" overflow-auto coverContainer bg-dark">
  
+     {/*Navbar*/}
      <nav class="navbar  navbar-expand-sm backgroundNavbar" >
       <a href="/" class="navbar-brand text-white">
        <img alt="House" src={houseImgPath} width="30" height="30"/> moTICA      
@@ -29,15 +29,17 @@ function Historia() {
                         
      </nav>
       
-      
-      <div class= "contenedor">
-
-      
-        <h2 class='text-success'>Nuestra Historia</h2>
-        <img src={test} width="800" height="750" alt="Mi titulo de la imagen"/>
-        <div class='centrado'>
-          <p class="fs-5 text-white">
-          Motica se fundó en el año 2022 con el fin de impulsar, modernizar y popularizar el
+      {/*Contenido con el titulo e historia*/}
+      <div class="">
+      <div class= "text-success position-relative backgroundDescription">
+          <br/>
+        <br/>
+          <h1>Descripción del sitio</h1>
+            <br/>
+            <br/>
+            <div class = "text-white position-relative parrafo">
+            <p>
+            Motica se fundó en el año 2022 con el fin de impulsar, modernizar y popularizar el
           negocio de las ventas de cannabis y sus productos derivados. 
           Iniciamos lanzando nuestros primeros productos prácticamente solo enfocados en el consumo de forma
           tradicional, pero hoy en día somos los más grandes distribuidores de todo tipo de
@@ -46,15 +48,13 @@ function Historia() {
           Esta empresa en poco tiempo se ha consolidado como la más importante vendedora
           del país y ha colaborado con la educación sobre el consumo adecuado y responsable
           de nuestro producto, asi como el combate contra el tabú formado alrededor de este.
-          </p>
-        </div>
+            </p>
+            </div>
+          </div>
+      </div> 
 
-        
-
-        
-
-      </div>
-       
+  
+      {/*Footer*/}
       <section class="">
       <footer class="backgroundNavbar text-white text-center fixed-bottom">
           <div class="container p-0">

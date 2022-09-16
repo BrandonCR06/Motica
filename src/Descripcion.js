@@ -7,7 +7,7 @@ function Descripcion() {
   return (
     <body style ={{minWidth:"100%" }} class=" overflow-auto coverContainer bg-dark">
  
-    /*En el siguiente bloque nav se habilita los enlaces de las funcionalidades de la aplicación, como el inicio de sesión, carrito, tienda, etc.*/
+    {/*En el siguiente bloque nav se habilita los enlaces de las funcionalidades de la aplicación, como el inicio de sesión, carrito, tienda, etc.*/}
     
      <nav class="navbar  navbar-expand-sm backgroundNavbar" >
       <a href="/" class="navbar-brand text-white">
@@ -30,7 +30,7 @@ function Descripcion() {
                         
      </nav>
 
-  /*En el siguiente bloque div se imprime la información de la descripción del producto en pantalla, por medio de elementos css importadops de App.css.*/
+{/*En el siguiente bloque div se imprime la información de la descripción del producto en pantalla, por medio de elementos css importadops de App.css.*/}
     <div class="">
      <div class= "text-success position-relative backgroundDescription">
         <br/>
@@ -44,7 +44,7 @@ function Descripcion() {
         </div>
     </div>
 
-   /*En el siguiente bloque section se habilitan los enlaces a las demás secciones de información estática de la app.*/
+{/*En el siguiente bloque section se habilitan los enlaces a las demás secciones de información estática de la app.*/}
         <section class="">
         <footer class="backgroundNavbar text-white text-center fixed-bottom">
           <div class="container p-0">

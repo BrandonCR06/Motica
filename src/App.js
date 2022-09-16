@@ -1,16 +1,16 @@
 import './App.css';
 
-import Historia from './Historia'
+import Historia from './static/Historia'
 import Home from './Home'
-import Organigrama from './Organigrama'
-import Descripcion from './Descripcion'
-import Faq from './Faq'
-import Ubicacion from './Ubicacion'
-import Catalogo from './Catalogo';
-import Carrito from './Carrito';
-import Login from './Login';
-import Facturacion from './Facturacion';
-import Gestion from './Gestion';
+import Organigrama from './static/Organigrama'
+import Descripcion from './static/Descripcion'
+import Faq from './static/Faq'
+import Ubicacion from './static/Ubicacion'
+import Catalogo from './dynamic/Catalogo';
+import Carrito from './dynamic/Carrito';
+import Login from './dynamic/Login';
+import Facturacion from './dynamic/Facturacion';
+import Gestion from './dynamic/Gestion';
 
 
 import {BrowserRouter, Routes, Route} from 'react-router-dom';

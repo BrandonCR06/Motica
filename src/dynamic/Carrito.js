@@ -1,8 +1,6 @@
-import './App.css';
-import houseImgPath from './mari.jpeg' // replace with your own path
-import carrito from './cart.svg' // replace with your own path
-
-function Catalogo() {
+import '../App.css';
+import houseImgPath from '../img/mari.jpeg' 
+function Carrito() {
   return (
 
 
@@ -14,13 +12,7 @@ function Catalogo() {
       </a>  
       
       <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-          <a href="/Login" class="btn btn-default  btn-outline-dark bg-white "> Carrito
-            <img src={carrito} alt="logo" width="30" height="25"/>
-          </a>
-                  
-        </li>
-        <li>-</li>
+        
         <li class="nav-item">
           <a href="/Login" class="btn btn-default  btn-outline-dark bg-success " width="30" height="25">Usuario</a>
 
@@ -86,4 +78,4 @@ function Catalogo() {
   );
 }
 
-export default Catalogo;
+export default Carrito;

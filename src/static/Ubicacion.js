@@ -1,6 +1,6 @@
-import './App.css';
-import houseImgPath from './mari.jpeg' 
-import carrito from './cart.svg' 
+import '../App.css';
+import houseImgPath from '../img/mari.jpeg' 
+import carrito from '../img/cart.svg' 
 
 
 

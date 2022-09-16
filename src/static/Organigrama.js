@@ -1,6 +1,6 @@
-import './App.css';
-import houseImgPath from './mari.jpeg' // replace with your own path
-import carrito from './cart.svg' // replace with your own path
+import '../App.css';
+import houseImgPath from '../img/mari.jpeg' 
+import carrito from '../img/cart.svg'
 
 /*Esta es la página encargada de desplegar el organigrama de la empresa con forma de esquema */
 function Organigrama() {

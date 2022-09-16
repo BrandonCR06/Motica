@@ -1,6 +1,6 @@
 import './App.css';
-import houseImgPath from './mari.jpeg' // replace with your own path
-import carrito from './cart.svg' // replace with your own path
+import houseImgPath from './img/mari.jpeg'
+import carrito from './img/cart.svg' 
 
 function Home() {
   return (

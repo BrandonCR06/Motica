@@ -1,5 +1,5 @@
-import './App.css';
-import houseImgPath from './mari.jpeg' // replace with your own path
+import '../App.css';
+import houseImgPath from '../img/mari.jpeg' 
 
 function Gestion() {
   return (

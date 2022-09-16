@@ -45,6 +45,16 @@
   background-image: url("bg.jpeg");
 }
 
+/*Ubicación*/
+
+/* 
+1.leftSide: Tag div que abarca el 50% del ancho de la pantalla (Parte izquierda) y un 88% vertical.
+2.RightSide: Tag div que abarca el 50% del ancho de la pantalla (Parte derecha) y un 88% vertical.
+3. Responsive Ifram: Mapa de googlemaps mostrando la ubicacion.
+4. InformacionBox: Contenedor ubicado dentro de rightsdise que va a contener todo la informacion
+5. ParrafoLocation: Muestra el texto plano de la página de ubicacion del producto y ajusta el tamaño y posición de dicho texto.
+*/
+
 .leftside , .rightside {
   position: absolute;
   top: 2px;

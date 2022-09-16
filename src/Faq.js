@@ -7,7 +7,8 @@ function Home() {
 
 
     <body style ={{minWidth:"100%" }}class=" overflow-auto coverContainer bg-dark">
- 
+      {/*El minWidth se pone para que los divs cubran todo el ancho de la pantalla*/}
+ {/*En el siguiente bloque nav se habilita los enlaces de las funcionalidades de la aplicación, como el inicio de sesión, carrito, tienda, etc.*/}
      <nav class="navbar  navbar-expand-sm backgroundNavbar" >
       <a href="/" class="navbar-brand text-white">
        <img alt="House" src={houseImgPath} width="30" height="30"/> moTICA      
@@ -32,14 +33,17 @@ function Home() {
 
 
       
-      <div class= " alineadoCentro text-white position-relative">
+      <div class= " alineadoCentro text-success position-relative">
         <h1>Preguntas Frecuentes</h1>        
         
       </div>
-      
+      {/*MinHeight de 100 hace que cubra hasta el final, este caso hasta el footer*/}
       <div  style ={{minWidth:"100%;",minHeight:"100%" }}class = " ">
-        
+        {/*Espaciado entre preguntas*/}
         <div class = "verticalLine bg-dark"></div>
+        
+        {/*Este es el formato de las preguntas frecuentes, lo ideal era crear un componente de react que reciba la pregunta y la respuesta para */}
+        {/*terner un código mucho más resumido y claro*/}
         <div class= " alineadoIzquierda  text-white position-relative">        
           <div class = " bg-gradient text-success"> 
             <h2 class = "izquierda inline position-relative text-success">P.</h2>   
@@ -133,7 +137,7 @@ function Home() {
       </div>
       
       
-       
+           {/*Footer con el acceso a las páginas estáticas*/}
       <section class="">
         <footer class="backgroundNavbar text-white position-relative text-center fixed-bottom">
           <div class="container p-0">

@@ -34,7 +34,7 @@ function Historia() {
       <div class= "text-success position-relative backgroundDescription">
           <br/>
         <br/>
-          <h1>Descripción del sitio</h1>
+          <h1>Nuestra Historia</h1>
             <br/>
             <br/>
             <div class = "text-white position-relative parrafo">

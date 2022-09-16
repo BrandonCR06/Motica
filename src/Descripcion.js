@@ -9,7 +9,7 @@ function Descripcion() {
  
     {/*En el siguiente bloque nav se habilita los enlaces de las funcionalidades de la aplicación, como el inicio de sesión, carrito, tienda, etc.*/}
     
-     <nav class="navbar  navbar-expand-sm backgroundNavbar" >
+    <nav class="navbar  navbar-expand-sm backgroundNavbar" >
       <a href="/" class="navbar-brand text-white">
        <img alt="House" src={houseImgPath} width="30" height="30"/> moTICA      
       </a>  
@@ -17,13 +17,13 @@ function Descripcion() {
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
           <a href="/Login" class="btn btn-default  btn-outline-dark bg-white "> Carrito
-            <img src={carrito} alt="logo" width="30" height="25" />
+            <img src={carrito} alt="logo" width="30" height="25"/>
           </a>
                   
         </li>
-        
+        <li>-</li>
         <li class="nav-item">
-          <a href="/Login" class="nav-link bg-success " width="30" height="25">Iniciar Sesión</a>
+          <a href="/Login" class="btn btn-default  btn-outline-dark bg-success " width="30" height="25">Iniciar Sesión</a>
 
         </li>
       </ul>

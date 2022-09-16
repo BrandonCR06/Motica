@@ -133,7 +133,8 @@
 .inline{
   display: inline;
   top: 13%;
-  font-Size: 2vw;
+  
+
 
   
   
@@ -142,9 +143,9 @@
 .inlinePar{
   display: inline;
   min-height: 10%;
-  font-Size: 1.2vw;
-  left:3%;
-  top: 18%;
+  
+  left:4%;
+  top: 22%;
 }
 
 

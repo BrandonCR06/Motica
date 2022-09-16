@@ -30,7 +30,7 @@ function Organigrama() {
      </nav>
       
       
-     /*Bloque con la configuracion de estilos CSS para el organigrama*/
+     {/*Bloque con la configuracion de estilos CSS para el organigrama*/}
      <div class="orcontainer overflow-auto"> 
       <h1 class="level-1 rectangle">Presidencia: Brandon Redondo / Ricardo Soto</h1>
         <ol class="level-2-wrapper">

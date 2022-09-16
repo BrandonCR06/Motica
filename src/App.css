@@ -75,7 +75,12 @@
   box-shadow: -25px 2px 20px 23px black;
 }
 
+/*DESCRIPCION DEL PRODUCTO*/
 
+/* 
+1.backgroundDescription: Despliega la imagen de fondo en la página de descripción del producto. También establece el tamaño y la posición del contenedor.
+2. Parrafo: Muestra el texto plano de la página de descripción del producto y ajusta el tamaño y posición de dicho texto.
+*/
 
 .backgroundDescription{
   width: 100%;

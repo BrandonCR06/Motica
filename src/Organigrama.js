@@ -2,6 +2,7 @@ import './App.css';
 import houseImgPath from './mari.jpeg' // replace with your own path
 import carrito from './cart.svg' // replace with your own path
 
+/*Esta es la página encargada de desplegar el organigrama de la empresa con forma de esquema */
 function Organigrama() {
 
   return (
@@ -29,8 +30,8 @@ function Organigrama() {
      </nav>
       
       
-      
-     <div class="orcontainer overflow-auto">
+     /*Bloque con la configuracion de estilos CSS para el organigrama*/
+     <div class="orcontainer overflow-auto"> 
       <h1 class="level-1 rectangle">Presidencia: Brandon Redondo / Ricardo Soto</h1>
         <ol class="level-2-wrapper">
               <li>
